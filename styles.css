@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+.outerouterContainer {
+    position: fixed;
+    top: 25%;
+    
+}
+.outerContainer {
+    width: 720px;
+    height: 450px;
+    border-radius: 10%;
+    background-color: white;
+    display: flex;
+    box-shadow: 1px -2px 40px #e6ecfd;
+}
+
+.leftContainer {
+    background-image:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 450px;
+    border-radius: 10%;
+    width: 360px;
+    text-align: center;
+}
+
+.pointBox {
+    height: 70px;
+}
+.rightContainer {
+    width: 360px;
+}
+.circle {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    position: relative;
+    left: 5em;
+    line-height: 100px;
+}
+p {
+    font-size: 18px;
+    color: white;
+    opacity: 50%;
+}
+
+.rightBoxes {
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    left: 30px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px/10px;
+}
+
+.rightScoreBox {
+    float: right;
+    margin-right: 10px;
+}
+.widget {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.widgetPic {
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+}
+
+.reaction {
+    background-color: #f5e9e9;
+}
+.memory {
+    background-color: #faf2dc;
+}
+
+.verbal {
+    background-color: #dcfaf9;
+}
+
+.visual {
+    background-color: #f1edf7;
+}
+.continue {
+    background-color: #303b59;
+    color: white;
+    border-radius: 35px/30px;    
+    text-align: center;
+    width: 300px;
+}
+
+
+.attribution {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
