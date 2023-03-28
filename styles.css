@@ -64,6 +64,16 @@ p {
 .rightScoreBox {
     float: right;
     margin-right: 10px;
+    display: flex;
+}
+
+.firstNum {
+    margin: 0 1vh 0 0 ;
+    color: rgb(34, 38, 63)
+}
+
+.secondNum {
+    opacity: 50%;
 }
 .widget {
     margin-left: 10px;
